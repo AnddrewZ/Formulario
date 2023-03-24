@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Ação a ser executada">
+        <fieldset>
+            <Legend>Produto</Legend>
+            <label for="iproduto">Produto:</label>
+            <input type="text" name="emproduto" id="iproduto" placeholder="Inserir nome do Produto"><br>
+            
+            <label for="idatacad">Data de Cadastro</label>
+            <input id="idatacad" name="ndatacad" type="date"><br>
+            
+            <label for="ipeso">Peso</label>
+            <input type="number" name="empeso" id="ipeso" placeholder="Inserir Peso"><br>
+
+            <label for="icat">Categoria</label>
+            <select name="emcat" id="icat">
+                <option value="e">Eletrônicos</option>
+                <option value="m">Móveis</option>
+            </select><br>
+
+            <label for="">Tipo</label><br>
+            <input type="radio" name="rtipo" id="inovo" value="N">
+            <label for="inovo">Novo</label>
+
+            <input type="radio" name="rtipo" id="iusado" value="U">
+            <label for="iusado">Usado</label><br>
+
+            <label for="idesc">Descrição</label><br>
+            <textarea name="descarea" id="idesc" cols="15" rows="10" placeholder="Insira a descrição do produto"></textarea><br>
+
+            <label for="iava">Avaliação</label>
+            <input type="range" min="1" max="10" id="iava"><br>
+
+            <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

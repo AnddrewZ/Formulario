@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action"Ação a ser executada">
+    <Fieldset>
+        <Legend> Usuário </Legend>
+
+        <label for="iname">Nome:</label>
+        <input id="iname" name="emname" type="text" placeholder="Inserir Nome"><br>
+
+        <label for="idatanas">Data de Nascimento:</label>
+        <input id="idatanas" name="ndatanas" type="date"><br>
+
+        <label for="isex">Sexo:</label>
+        <select name="sex" id="isex">
+            <option value="m">Masculino</option>
+            <option value="f">Feminino</option>
+            <option value="a">Agenero</option>
+        </select><br>
+
+        <label for="">Tipo:</label>
+        <input type="radio" name="rtipo" id="iusuario" value="U">
+        <label for="iusuario">Usuário</label><br>
+
+        <input type="radio" name="rtipo" id="iadmin" value="A">
+        <label for="iadmin">Admin</label><br> 
+
+        <label for="imail">Email:</label>
+        <input id="imail" name="emmail" type="email" placeholder="Inserir Email"><br>
+
+        <label for="icmail">Confirme seu E-mail</label>
+        <input type="email" id="icmail" name="emcmail" placeholder="Inserir E-mail">
+
+        <label for="ifale">Fale sobre você</label>
+        <textarea name="txtarea" id="ifale" cols="50" rows="20"></textarea>
+</body>
+</html>
